@@ -1,10 +1,10 @@
 import { useForm } from "react-hook-form";
 import AuthLayout from "../../layout/AuthLayout";
 import { useNavigate } from "react-router-dom";
-import { login } from "../../services/API";
 import { toast } from "react-hot-toast";
 import GoogleButton from "../../components/GoogleButton";
 import LinkedInButton from "../../components/LinkedInButton";
+import { login } from "../../services/API";
 
 const Login = () => {
 
