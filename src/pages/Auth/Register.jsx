@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import GoogleButton from "../../components/GoogleButton";
 import LinkedInButton from "../../components/LinkedInButton";
-import { registerUser } from "../../services/api";
+import { registerUser } from "../../services/apis";
 
 const Register = () => {
 
