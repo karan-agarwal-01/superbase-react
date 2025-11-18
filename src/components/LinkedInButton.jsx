@@ -1,4 +1,4 @@
-import { loginWithLinkedin } from "../services/API";
+import { loginWithLinkedin } from "../services/api";
 
 const LinkedInButton = () => (
     <button type="button" onClick={() => loginWithLinkedin()} className="cursor-pointer w-full flex items-center justify-center gap-2 border border-gray-300 py-2 my-2 rounded-lg hover:bg-gray-100 transition">
