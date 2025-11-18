@@ -11,7 +11,7 @@ export const registerUser = async (email, password) => {
     return data;
 }
 
-export const login = async (email, password) => {
+export const loginuser = async (email, password) => {
     const { data, error } = await superbase.auth.signInWithPassword({
         email, password
     })

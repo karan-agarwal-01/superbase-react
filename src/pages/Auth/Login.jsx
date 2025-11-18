@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import GoogleButton from "../../components/GoogleButton";
 import LinkedInButton from "../../components/LinkedInButton";
-import { login } from "../../services/API";
+import { loginuser } from "../../services/API";
 
 const Login = () => {
 
@@ -14,7 +14,7 @@ const Login = () => {
 
     const onSubmit = async (data) => {
         try {
-            const res = await login(data.email, data.password)
+            const res = await loginuser(data.email, data.password)
             if (res.user !== null) {
                 toast.success('login successfully');
                 navigate('/')
