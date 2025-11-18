@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import AuthLayout from "../../layout/AuthLayout";
 import { useNavigate } from "react-router-dom";
-import { registerUser } from "../../services/API";
+import { registerUser } from "../../services/api";
 import { toast } from "react-hot-toast";
 import GoogleButton from "../../components/GoogleButton";
 import LinkedInButton from "../../components/LinkedInButton";

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import GoogleButton from "../../components/GoogleButton";
 import LinkedInButton from "../../components/LinkedInButton";
-import { loginuser } from "../../services/API";
+import { loginuser } from "../../services/api";
 
 const Login = () => {
 
